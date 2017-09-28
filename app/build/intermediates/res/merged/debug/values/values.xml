@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="color" name="color_finger_on"/>
+    <attr format="color" name="color_finger_up"/>
+    <attr format="color" name="color_no_finger_inner_circle"/>
+    <attr format="color" name="color_no_finger_outer_circle"/>
+    <attr format="integer" name="count"/>
+    <attr format="integer" name="tryTimes"/>
+    <declare-styleable name="GestureLockViewGroup"><attr name="color_no_finger_inner_circle"/><attr name="color_no_finger_outer_circle"/><attr name="color_finger_on"/><attr name="color_finger_up"/><attr name="count"/><attr name="tryTimes"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">GestureLockViewDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        
+    </style>
+</resources>
